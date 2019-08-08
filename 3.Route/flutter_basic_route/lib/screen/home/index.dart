@@ -1,9 +1,5 @@
-
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../../vote_comment_list_view.dart';
 
 class VoteScreen extends StatelessWidget {
 
@@ -132,17 +128,16 @@ class _MyVoteNestedListView extends State<MyVoteNestedListView> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){
-          Navigator.push(
+          /*Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => VoteCommentListViewApp()),
-          );
+          );*/
         },
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), //
     );
   }
-
 }
 
 
@@ -163,7 +158,7 @@ class VoteTitleWidget extends StatelessWidget
                   Container(
                     padding: const EdgeInsets.only(bottom: 8),
                     child: Text(
-                      '대한민국 국민이라면 일본제품 불매운동은 찬성이다',
+                      'Test',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                       ),
