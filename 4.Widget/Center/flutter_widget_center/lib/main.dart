@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'Column/index.dart';
+import 'Container/index.dart';
+import 'Row/index.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -20,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: CenterWidget(),
+      home: RowWidget(),
     );
   }
 }
